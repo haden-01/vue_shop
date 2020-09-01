@@ -8,6 +8,13 @@ import '../src/assets/fonts/iconfont.css'
 import axios from 'axios'
 // 配置请求的根路径
 axios.defaults.baseURL = 'http://127.0.0.1:8888/api/private/v1/'
+axios.interceptors.request.use(config => {
+  console.log(config)
+  // 需要授权的api,必须在请求头（header）中为“Authorization”  字段提供token令牌
+  config.headers.Authorization = window.sessionStorage.getItem('token')
+  return config
+})
+
 Vue.prototype.$http = axios
 
 Vue.config.productionTip = false

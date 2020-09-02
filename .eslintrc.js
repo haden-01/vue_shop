@@ -16,6 +16,9 @@ module.exports = {
     'space-before-function-paren':0 ,
     'object-curly-newline':0 ,
     'no-trailing-spaces':0 ,
-    'no-multiple-empty-lines':0
+    'no-multiple-empty-lines':0,
+    'space-before-blocks':0,
+    'quote-props ':0,
+    
   }
 }

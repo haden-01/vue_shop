@@ -19,6 +19,10 @@ module.exports = {
     'no-multiple-empty-lines':0,
     'space-before-blocks':0,
     'quote-props ':0,
+    'indent': 'off',
+    'object-curly-spacing':0,
+    'key-spacing': 0,
+    'eol-last':0
     
   }
 }

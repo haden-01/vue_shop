@@ -351,7 +351,7 @@ export default {
                 this.selectedRoleId = ''
                 this.userInfo = {}
             }
-              }
+     }
 }
 </script>
 

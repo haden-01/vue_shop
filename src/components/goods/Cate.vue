@@ -63,7 +63,7 @@
       <!-- option 用来指定数据元 -->
     <el-cascader
     v-model="selectedKeys"
-    :options="parentCateList"
+    :options="cateList"
     :props="cascaderProps"
     @change="parentCateChange" clearable :size="mini">
     </el-cascader>

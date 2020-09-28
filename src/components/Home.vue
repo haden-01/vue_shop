@@ -140,4 +140,5 @@ export default {
   letter-spacing: 0.2em;
   cursor: pointer;
 }
+
 </style>

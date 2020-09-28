@@ -239,7 +239,7 @@ export default {
                item.attr_vals = item.attr_vals ? item.attr_vals.split(' ') : []
                 // 控制文本框的显示和隐藏
                 item.inputVisible = false
-                // 文本框中输入值得绑定属性
+                // 文本框中输入值的绑定属性
                 item.inputValue = ''
            })
            console.log(res.data)
